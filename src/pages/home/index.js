@@ -48,7 +48,7 @@ export const Home = () => {
 
     const user = localStorage.getItem("user")
 
-    const urlApi = 'https://whatsapp-api-qcel.onrender.com'//'http://localhost:3333'
+    const urlApi = 'http://localhost:3333'//'https://whatsapp-api-qcel.onrender.com'//'
 
     useEffect(() => {
         setUpdate(false)
