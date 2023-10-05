@@ -1,5 +1,4 @@
 import { useState } from "react"
-import { redirect } from "react-router-dom";
 
 export const Auth = props => {
 
@@ -8,7 +7,9 @@ export const Auth = props => {
   const [error, setError] = useState()
 
   const users = {
-    fabricio: '123'
+    fabricio: '123',
+    fabio: '123',
+    wellington: '123',
   }
 
   const handleClick = e => {
